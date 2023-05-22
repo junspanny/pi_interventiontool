@@ -1,0 +1,235 @@
+.big_one{
+  height: 160px;
+  margin: 0px 0px 0px;
+}
+.upper_info{
+    display:flex;
+    flex-direction:row;
+    border: 1px solid black;
+  /*   justify-content:space-evenly; */
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:lightgray;
+    color:black;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:19px;
+    margin-top:0%;
+    height:85%;
+}
+.currnet_article_info{ /* Current article information */
+    font-size:19px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;  
+    width:35vw;
+    height:70%;
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+.current_titles{ /* Current article information - title */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    /* border: 1px solid black;   */
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.current_part1{ /* Current article information - source and bias  */
+    display:flex;
+    flex-direction:row;
+    justify-self: start;
+    justify-content:flex-start;
+    /* border: 1px solid black; */
+  }
+.info_source{ /* Current article information - source and bias  */
+    display:flex;
+    flex-direction:row;
+    justify-self: start; 
+    width:50%; 
+}
+.info_bias{ /* Current article information - source and bias  */
+    display:flex;
+    flex-direction:row;
+    justify-self: start; 
+    width:50%; 
+}
+.current_part2{ /* Current article information -page title  */
+    display:flex;
+    flex-direction:row;
+    justify-self: start;
+    /* border: 1px solid black; */
+}
+.current_part3{ /* Current article information -page title  */
+  display:flex;
+  flex-direction:row;
+  justify-self: start;
+  /* border: 1px solid black; */
+}
+.your_bias_info{ /* Your Bias information part  */
+    display:flex;
+    flex-direction:column;
+    justify-self: start;  
+    width:30vw;
+    height:70%;
+    margin-top:1%;
+}
+.chart_title{ /* Your Bias information - title */
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.under_chart{ /* Your Bias information - chart and domianat bias */
+    display:flex;
+    flex-direction:row;
+    justify-self: start;
+    justify-content: space-evenly;  
+}
+.chart-bias_info_part1{ /* Your Bias information - chart  */
+    display: flex; 
+    flex-direction: column;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    width:10vw;
+    margin-top: 1%;
+    margin-right: 1%;
+    /* border: 1px solid black; */
+}
+.bias_info_part2{ /* Your Bias information - dominant bias  */
+    display: flex; 
+    flex-direction: column;  
+}
+.Leaning1{ /* Your Bias information - dominant bias  */
+    display: flex; 
+    flex-direction: row;    
+}
+.Leaning2{ /* Your Bias information - bias_name  */
+    display: flex; 
+    flex-direction: row;    
+}
+.Leanings{ /* Your Bias information - (%)  */
+    display:flex;
+    flex-direction:row;  
+}
+.your_session_info{
+  display:flex;
+  flex-direction: column;
+  width:40vw;
+    /* border: 1px solid black; */
+  height:70%;
+  margin-top:1%;
+}
+.sess_title{
+    display:flex;
+    justify-content:center;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.sess_under{
+    display: flex; 
+    flex-direction: row;
+  justify-content:space-around;
+}
+.sess_part1{
+    display:flex;
+    flex-direction:column;
+    justify-self: start;
+    width:40%;
+    /* border: 1px solid black;    */
+}
+  .num_articles{
+      display:flex;
+      flex-direction:row;
+      /* border: 1px solid black;      */
+  }
+  .avg_reading{
+    display:flex;
+    flex-direction:row;  
+  }
+  .session_time{
+    display:flex;
+    flex-direction:row;  
+  }
+  .session_time_value{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    white-space: nowrap;      
+  }
+.sess_part2{
+    display:flex;
+    flex-direction:column;
+    justify-self: start;
+    width:30%;
+    /* border: 1px solid black;      */
+}
+  .click_time{
+    display:flex;
+    flex-direction:row;
+    /* border: 1px solid black;       */
+  }
+  .scroll_time{
+    display:flex;
+    flex-direction:row;
+    /* border: 1px solid black;       */
+  }
+
+.control_container{
+      height: 18%;
+      display: flex;
+      flex-direction: row;
+      /* justify-content:space-around; */
+      justify-content:space-evenly;
+      align-items: center;
+      background-color:lightgray;
+      border: 1px solid black;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:18px;
+} 
+  .articles_btns{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-between; */
+      /* align-items: center; */
+      /* width:10vw;
+      height:100vh;
+      border: 1px solid black; */
+  }
+  .article_btn_title{
+    width:30px;
+  }
+    /* For Article's buttons */
+  .item{
+      width:6vw;
+      height:15%;
+      border: 1px solid black;
+      /* margin-bottom: 10px; */
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      /* line-height:30px; */
+      background: cyan;
+      margin-left: 1vw;
+      font-size: 18px;
+  }
+  .item:hover{
+      width:6vw;
+      height:15%;
+      border: 1px solid black;
+      background: red;
+      cursor: pointer;
+  }
+  .item.active {
+    background: red;
+  }
+  .item.active {
+    background: red;
+  } 
+  a { 
+      text-decoration:none 
+  }
