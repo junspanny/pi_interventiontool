@@ -25,6 +25,7 @@
         1. Every website they visit
         2. The length of time that they are actively viewing the website
         3. The URL of every unique news article they view (organized by day)
+        4. The number of click and scroll on the current web page
 
     #### <u>AllSides Bias Annotations</u>
 
