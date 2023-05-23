@@ -7,13 +7,13 @@
 
 ## Features
 
-#### **Personal Informatics Dashboard**
+#### **Personal Informatics Tool**
 
 - When visiting a news source, a dropdown ribbon will be injected to the top of the webpage that displays information surrounding the user's news-browsing. 
 - Displays the basic information of the current news source, the dominant political bias of the users based on current and previous news sources with chart and the user session information. 
 - The article information includes news source, current news bias and its title. 
 - The bias information display and calculate based on user's read news and decide it by allside bias standard.
-- Te user session information shows number of news read, average news reading time, current spending time for news and how many times user click or scroll of current news. 
+- The user session information shows number of news read, average news reading time, current spending time for news and how many times user click or scroll of current news. 
 
 #### **Firebase Backend**
 
@@ -39,7 +39,7 @@
 - The AllSides dataset may be subject to change over time. To update Firebase to reflect any new data, do the following:
     1. Store your new dataset in a .csv file under the /Data folder 
     2. Using either Python or the Command Line, make sure your working directory is `Community-Comm/Util`
-    3. Execute the script `upload.py` making sure Line 18 is pointing to the correct csv file. Console output should indicate if the upload was successful or not. https://github.com/Sensify-Lab/Community-Comm/blob/f6f8cdfa56c94d5d067706138bb1e7a669c0a94d/Util/upload.py#L18
+    3. Execute the script `upload.py` making sure Line 18 is pointing to the correct csv file. Console output should indicate if the upload was successful or not.
 
 
 ## Setup
