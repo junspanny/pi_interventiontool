@@ -2,6 +2,8 @@
 
 - A Chrome browser extension that passively monitors the user's behavior and guide's their news-browsinfg experience through several interventions.
 - Provides basic article information and its bias information about news sources *in-situ*
+- Display user's current session information, expecially user's action statics on web page
+- If a news article has false, misreading, or disturbing information, a pop-up guides users
 - Aggregates and displays personal consumption and action data on web pages
 
 ## Features
