@@ -12,7 +12,7 @@
 - The article information includes news source, current news bias and its title. 
 - The bias information display and calculate based on user's read news and decide it by allside bias standard.
 - The user session information shows number of news read, average news reading time, current spending time for news and how many times user click or scroll of current news. 
-- When facing an article which has fake, misleading or disturbing information, a pop-up alert to user 
+- When accessing an article which has fake, misleading or disturbing information, a pop-up stop displaying the website and shows a warning message. User needs to click ok button 
 
 #### **Firebase Backend**
 
