@@ -1,13 +1,10 @@
-# Community-Comm
+# Personal Informatics Tool
 
 - A Chrome browser extension that passively monitors the user's behavior and guide's their news-browsinfg experience through several interventions.
-- Provides bias information about news sources *in-situ*
-- Aggregates and displays personal consumption data
-- Allows to user to submit their own annotations of a news source as a means of crowdsourcing data
+- Provides basic article information and its bias information about news sources *in-situ*
+- Aggregates and displays personal consumption and action data on web pages
 
 ## Features
-
-#### **Personal Informatics Tool**
 
 - When visiting a news source, a dropdown ribbon will be injected to the top of the webpage that displays information surrounding the user's news-browsing. 
 - Displays the basic information of the current news source, the dominant political bias of the users based on current and previous news sources with chart and the user session information. 
