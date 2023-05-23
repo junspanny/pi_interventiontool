@@ -13,6 +13,7 @@ Our usability study with 10 participants uses a between-subjects design. It meas
 - Aggregates and displays personal consumption and action data on web pages
 
 ## Features
+![image](https://github.com/junspanny/pi_interventiontool/assets/102566413/624b168b-76f2-4e66-bede-7af7f8be0f80)
 
 - When visiting a news source, a dropdown ribbon will be injected to the top of the webpage that displays information surrounding the user's news-browsing. 
 - Displays the basic information of the current news source, the dominant political bias of the users based on current and previous news sources with chart and the user session information. 
