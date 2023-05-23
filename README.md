@@ -2,7 +2,6 @@
 
 - A Chrome browser extension that passively monitors the user's behavior and guide's their news-browsinfg experience through several interventions.
 - Provides basic article information and its bias information about news sources *in-situ*
-- Display user's current session information, expecially user's action statics on web page
 - If a news article has false, misreading, or disturbing information, a pop-up guides users
 - Aggregates and displays personal consumption and action data on web pages
 
@@ -13,6 +12,7 @@
 - The article information includes news source, current news bias and its title. 
 - The bias information display and calculate based on user's read news and decide it by allside bias standard.
 - The user session information shows number of news read, average news reading time, current spending time for news and how many times user click or scroll of current news. 
+- When facing an article which has fake, misleading or disturbing information, a pop-up alert to user 
 
 #### **Firebase Backend**
 
